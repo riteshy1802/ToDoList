@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+}
+.heading{
+    padding-top: 4rem;
+    color: white;
+    font-size: 3rem;
+    font-weight:900;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#toDo{
+    width: 50%;
+    outline: none;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    border-radius: 7px;
+    border: none;
+    text-indent: 20px;
+}
+#addTask{
+    background-color: white;
+    width: 9rem;
+    height: 6vh;
+    font-size: 1.4rem;
+    border-radius: 7px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: bold;
+}
+#addTask:active{
+    transform: scale(0.99);
+    font-size: 1.35rem;
+}
+#addTask:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.input-add{
+    padding-top:3.5rem ;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+}
+.underline{
+    margin-top: 1.5rem;
+    width: 7rem;
+    height: 5px;
+    border-radius: 3px;
+    background-color: white;
+}
+.und-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    margin-top:5rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+#item1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-indent: 20px;
+    color:black;
+    font-size: 1.6rem;
+    border-radius: 7px;
+    background-color: white;
+    height: 6vh;
+    width: 50%;
+}
+#remove{
+    background-color: white;
+    width: 9rem;
+    height: 6vh;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#remove:active{
+    transform: scale(0.99);
+    font-size: 1.3rem;
+}
+#remove:hover{
+    background-color: black;
+    transition: 0.2s ease-in-out;
+    color: white;
+}
